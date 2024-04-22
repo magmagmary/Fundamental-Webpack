@@ -2,6 +2,8 @@
   "name": "webpack-fundamentals",
   "license": "MIT",
   "author": "MagMagMary 70",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "cross-env webpack serve --config webpack/webpack.dev.config.js",
     "build": "cross-env webpack --config webpack/webpack.prod.config.js --progress",
