@@ -21,8 +21,8 @@
     "@babel/preset-typescript": "7.24.1",
     "@types/eslint": "8.56.10",
     "@types/node": "18.19.31",
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@types/react-redux": "7.1.33",
     "@types/webpack-env": "1.18.4",
     "@typescript-eslint/eslint-plugin": "5.62.0",
@@ -41,7 +41,7 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "27.9.0",
     "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "4.6.2",
     "eslint-plugin-simple-import-sort": "10.0.0",
     "eslint-plugin-unused-imports": "3.1.0",
     "fork-ts-checker-webpack-plugin": "7.3.0",
@@ -69,8 +69,8 @@
     "webpack-merge": "5.10.0"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "packageManager": "yarn@4.1.1",
   "browserslist": [
