@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react-redux", "npm:7.1.33"],\
-          ["@types/webpack-env", "npm:1.18.4"],\
+          ["@types/webpack-env", "npm:1.18.5"],\
           ["@typescript-eslint/eslint-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.62.0"],\
           ["@typescript-eslint/parser", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.62.0"],\
           ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
@@ -3271,10 +3271,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/webpack-env", [\
-      ["npm:1.18.4", {\
-        "packageLocation": "./.yarn/cache/@types-webpack-env-npm-1.18.4-ade20f36db-3fa77dbff0.zip/node_modules/@types/webpack-env/",\
+      ["npm:1.18.5", {\
+        "packageLocation": "./.yarn/cache/@types-webpack-env-npm-1.18.5-3d85d92443-b9e4876e8c.zip/node_modules/@types/webpack-env/",\
         "packageDependencies": [\
-          ["@types/webpack-env", "npm:1.18.4"]\
+          ["@types/webpack-env", "npm:1.18.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12577,7 +12577,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react-redux", "npm:7.1.33"],\
-          ["@types/webpack-env", "npm:1.18.4"],\
+          ["@types/webpack-env", "npm:1.18.5"],\
           ["@typescript-eslint/eslint-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.62.0"],\
           ["@typescript-eslint/parser", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.62.0"],\
           ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
