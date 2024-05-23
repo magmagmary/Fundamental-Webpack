@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-typescript", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.24.1"],\
           ["@types/eslint", "npm:8.56.10"],\
           ["@types/node", "npm:18.19.31"],\
-          ["@types/react", "npm:18.3.1"],\
+          ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react-redux", "npm:7.1.33"],\
           ["@types/webpack-env", "npm:1.18.4"],\
@@ -3176,10 +3176,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:18.3.1", {\
-        "packageLocation": "./.yarn/cache/@types-react-npm-18.3.1-5744cb1fe5-18d856c12a.zip/node_modules/@types/react/",\
+      ["npm:18.3.3", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-18.3.3-07e68e178e-fe455f805c.zip/node_modules/@types/react/",\
         "packageDependencies": [\
-          ["@types/react", "npm:18.3.1"],\
+          ["@types/react", "npm:18.3.3"],\
           ["@types/prop-types", "npm:15.7.12"],\
           ["csstype", "npm:3.1.3"]\
         ],\
@@ -10531,7 +10531,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-41a1c403d2/0/cache/react-dom-npm-18.3.1-a805663f38-a752496c19.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:18.3.1"],\
-          ["@types/react", "npm:18.3.1"],\
+          ["@types/react", "npm:18.3.3"],\
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.3.1"],\
           ["scheduler", "npm:0.23.2"]\
@@ -12574,7 +12574,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-typescript", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.24.1"],\
           ["@types/eslint", "npm:8.56.10"],\
           ["@types/node", "npm:18.19.31"],\
-          ["@types/react", "npm:18.3.1"],\
+          ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react-redux", "npm:7.1.33"],\
           ["@types/webpack-env", "npm:1.18.4"],\
