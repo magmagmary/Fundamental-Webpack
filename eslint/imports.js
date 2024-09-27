@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   plugins: ['import', 'simple-import-sort', 'unused-imports'],
 
   rules: {

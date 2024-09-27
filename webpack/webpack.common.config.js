@@ -1,10 +1,13 @@
-const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
+import path from 'path';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { WebpackManifestPlugin } from 'webpack-manifest-plugin';
+import url from 'url';
 
-module.exports = {
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
+
+export default {
   entry: {
     bundle: path.resolve(__dirname, '../src/index.tsx'),
   },

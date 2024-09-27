@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'max-nested-callbacks': 'error',
     'no-lonely-if': 'error',

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: [
     'plugin:@typescript-eslint/recommended',
     // TODO: We need to add this rule to add extra typescript type checking.

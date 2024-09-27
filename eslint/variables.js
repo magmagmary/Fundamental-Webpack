@@ -1,4 +1,4 @@
-module.exports = {
+export default{
   rules: {
     'no-shadow': 'off',
     'no-unused-vars': ['error', { vars: 'local', argsIgnorePattern: '^_' }],

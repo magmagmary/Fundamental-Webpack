@@ -1,14 +1,14 @@
-const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.config.js');
-const TerserPlugin = require('terser-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const Dotenv = require('dotenv-webpack');
-const webpack = require('webpack');
-const chunks = require('./chunks.js');
-const CompressionPlugin = require('compression-webpack-plugin');
+import path from 'path';
+import { merge } from 'webpack-merge';
+import common from './webpack.common.config.js';
+import TerserPlugin from 'terser-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import Dotenv from 'dotenv-webpack';
+import webpack from 'webpack';
+import chunks from './chunks.js';
+import CompressionPlugin from 'compression-webpack-plugin';
 
-module.exports = merge(common, {
+export default merge(common, {
   mode: 'production',
   output: {
     path: path.resolve('build'),

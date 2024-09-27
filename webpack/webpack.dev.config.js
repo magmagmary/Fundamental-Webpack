@@ -1,10 +1,13 @@
-const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.config.js');
-const Dotenv = require('dotenv-webpack');
-const webpack = require('webpack');
+import path from 'path';
+import { merge } from 'webpack-merge';
+import common from './webpack.common.config.js';
+import Dotenv from 'dotenv-webpack';
+import webpack from 'webpack';
+import url from 'url';
 
-module.exports = merge(common, {
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
+
+export default merge(common, {
   mode: 'development',
   bail: true,
   output: {

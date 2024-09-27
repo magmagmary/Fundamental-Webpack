@@ -1,3 +1,5 @@
+import * as path from 'path';
+
 const rules = [
   './errors',
   './imports',
@@ -7,9 +9,9 @@ const rules = [
   './es6',
   './variables',
   './typescript',
-].map(require.resolve);
+].map((rule) => require.resolve(path.join(__dirname, rule)));
 
-module.exports = {
+export default {
   env: {
     browser: true,
     es2022: true,

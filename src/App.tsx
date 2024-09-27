@@ -5,7 +5,7 @@ const App = () => (
   >
     <span className='mb-4'> Hello From Webpack</span>
 
-    <p className='text-sm text-gray-500'>{`developed by ${process.env.REACT_APP_NAME}`}</p>
+    <p className='text-sm text-red-500'>{`developed by ${process.env.REACT_APP_NAME}`}</p>
   </div>
 );
 
