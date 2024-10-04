@@ -1,4 +1,4 @@
-FROM node:20.12.2 as build
+FROM node:20.18.0 as build
 WORKDIR /webpack-app
 COPY package.json .
 COPY yarn.lock .
