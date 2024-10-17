@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-react", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.24.1"],\
           ["@babel/preset-typescript", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.24.1"],\
           ["@types/eslint", "npm:8.56.10"],\
-          ["@types/node", "npm:18.19.31"],\
+          ["@types/node", "npm:18.19.56"],\
           ["@types/react", "npm:18.3.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react-redux", "npm:7.1.33"],\
@@ -3094,10 +3094,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:18.19.31", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-18.19.31-cace5a518d-bfebae8389.zip/node_modules/@types/node/",\
+      ["npm:18.19.56", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-18.19.56-bb4779d8df-4cc4a6e905.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:18.19.31"],\
+          ["@types/node", "npm:18.19.56"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -12573,7 +12573,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-react", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.24.1"],\
           ["@babel/preset-typescript", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.24.1"],\
           ["@types/eslint", "npm:8.56.10"],\
-          ["@types/node", "npm:18.19.31"],\
+          ["@types/node", "npm:18.19.56"],\
           ["@types/react", "npm:18.3.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react-redux", "npm:7.1.33"],\
