@@ -21,8 +21,8 @@
 		"@biomejs/biome": "^1.9.4",
 		"@types/gh-pages": "^6",
 		"@types/node": "18.19.31",
-		"@types/react": "18.2.79",
-		"@types/react-dom": "18.2.25",
+		"@types/react": "18.3.18",
+		"@types/react-dom": "18.3.5",
 		"@types/react-redux": "7.1.33",
 		"@types/webpack-env": "1.18.4",
 		"autoprefixer": "10.4.19",
@@ -54,8 +54,8 @@
 		"webpack-merge": "5.10.0"
 	},
 	"dependencies": {
-		"react": "18.2.0",
-		"react-dom": "18.2.0"
+		"react": "18.3.1",
+		"react-dom": "18.3.1"
 	},
 	"packageManager": "yarn@4.6.0",
 	"browserslist": [">0.2%", "not ie <= 11", "not op_mini all"]
