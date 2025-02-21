@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@reduxjs/toolkit", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.5.1"],\
           ["@tailwindcss/postcss", "npm:4.0.0"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.5"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
           ["@types/webpack-env", "npm:1.18.6"],\
@@ -3149,10 +3149,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.10.10", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.10.10-31182c993e-3425772d45.zip/node_modules/@types/node/",\
+      ["npm:22.13.5", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.13.5-4c5912eee2-a2e7ed7bb0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.5"],\
           ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
@@ -11105,7 +11105,7 @@ const RAW_RUNTIME_STATE =
           ["@reduxjs/toolkit", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.5.1"],\
           ["@tailwindcss/postcss", "npm:4.0.0"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.5"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
           ["@types/webpack-env", "npm:1.18.6"],\
