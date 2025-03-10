@@ -68,7 +68,8 @@ const RAW_RUNTIME_STATE =
           ["webpack-bundle-analyzer", "npm:4.10.2"],\
           ["webpack-cli", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:6.0.1"],\
           ["webpack-dev-server", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.2.0"],\
-          ["webpack-merge", "npm:6.0.1"]\
+          ["webpack-merge", "npm:6.0.1"],\
+          ["zod", "npm:3.24.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -11137,7 +11138,8 @@ const RAW_RUNTIME_STATE =
           ["webpack-bundle-analyzer", "npm:4.10.2"],\
           ["webpack-cli", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:6.0.1"],\
           ["webpack-dev-server", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.2.0"],\
-          ["webpack-merge", "npm:6.0.1"]\
+          ["webpack-merge", "npm:6.0.1"],\
+          ["zod", "npm:3.24.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -11333,6 +11335,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/yocto-queue-npm-1.1.1-6bddf81a40-cb287fe5e6.zip/node_modules/yocto-queue/",\
         "packageDependencies": [\
           ["yocto-queue", "npm:1.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["zod", [\
+      ["npm:3.24.1", {\
+        "packageLocation": "./.yarn/cache/zod-npm-3.24.1-62ba4e84b3-0223d21dba.zip/node_modules/zod/",\
+        "packageDependencies": [\
+          ["zod", "npm:3.24.1"]\
         ],\
         "linkType": "HARD"\
       }]\

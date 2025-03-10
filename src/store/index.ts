@@ -14,7 +14,7 @@ export const store = configureStore({
 	middleware: (getDefaultMiddleware) =>
 		getDefaultMiddleware({
 			serializableCheck: false,
-		}).concat(api.middleware),
+		}).concat([api.middleware]),
 });
 
 export type RootState = ReturnType<typeof store.getState>;
