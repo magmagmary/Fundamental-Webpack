@@ -11,7 +11,7 @@ const Posts = () => {
 	if (isError) return <div>Error</div>;
 
 	return (
-		<ul className="grid grid-cols-5 gap-4">
+		<ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
 			{data?.map((post: Post) => (
 				<li
 					key={post.id}
