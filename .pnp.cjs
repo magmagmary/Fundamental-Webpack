@@ -72,7 +72,7 @@ const RAW_RUNTIME_STATE =
           ["webpack-pwa-manifest", "npm:4.3.0"],\
           ["workbox-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.3.0"],\
           ["workbox-window", "npm:7.3.0"],\
-          ["zod", "npm:3.24.1"]\
+          ["zod", "npm:3.24.2"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -15242,7 +15242,7 @@ const RAW_RUNTIME_STATE =
           ["webpack-pwa-manifest", "npm:4.3.0"],\
           ["workbox-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.3.0"],\
           ["workbox-window", "npm:7.3.0"],\
-          ["zod", "npm:3.24.1"]\
+          ["zod", "npm:3.24.2"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -15836,10 +15836,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["zod", [\
-      ["npm:3.24.1", {\
-        "packageLocation": "./.yarn/cache/zod-npm-3.24.1-62ba4e84b3-0223d21dba.zip/node_modules/zod/",\
+      ["npm:3.24.2", {\
+        "packageLocation": "./.yarn/cache/zod-npm-3.24.2-ab80dc0969-c638c72201.zip/node_modules/zod/",\
         "packageDependencies": [\
-          ["zod", "npm:3.24.1"]\
+          ["zod", "npm:3.24.2"]\
         ],\
         "linkType": "HARD"\
       }]\
