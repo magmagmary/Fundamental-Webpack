@@ -52,7 +52,8 @@ const config = merge(common, {
     new WebpackPwaManifest({
       short_name: "MagMagMary",
       name: "React PWA with Webpack",
-      start_url: ".",
+      start_url: "/Fundamental-Webpack/",
+      scope: "/Fundamental-Webpack/",
       display: "standalone",
       theme_color: "#000000",
       background_color: "#ffffff",
