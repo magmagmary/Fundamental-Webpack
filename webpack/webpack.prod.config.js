@@ -7,6 +7,11 @@ import webpack from 'webpack';
 import { merge } from 'webpack-merge';
 import { chunks } from './chunks.js';
 import common from './webpack.common.config.js';
+import url from 'node:url';
+import { GenerateSW } from 'workbox-webpack-plugin';
+import WebpackPwaManifest from 'webpack-pwa-manifest';
+
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 const config = merge(common, {
 	mode: 'production',
@@ -40,6 +45,38 @@ const config = merge(common, {
 			'process.env.TARGET_ENV': JSON.stringify('production'),
 		}),
 		new CompressionPlugin(),
+		new GenerateSW({
+			clientsClaim: true,
+			skipWaiting: true,
+		}),
+		new WebpackPwaManifest({
+			short_name: 'MagMagMary',
+			name: 'React PWA with Webpack',
+			start_url: '.',
+			display: 'standalone',
+			theme_color: '#000000',
+			background_color: '#ffffff',
+			icons: [
+				{
+					src: path.resolve(__dirname, '../src/assets/images/ios-icon.png'),
+					sizes: [120, 152, 167, 180, 1024],
+					destination: path.join('icons', 'ios'),
+					ios: true,
+				},
+				{
+					src: path.resolve(__dirname, '../src/assets/images/ios-icon.png'),
+					size: 1024,
+					destination: path.join('icons', 'ios'),
+					ios: 'startup',
+				},
+				{
+					src: path.resolve(__dirname, '../src/assets/images/android-icon.png'),
+					sizes: [36, 48, 72, 96, 144, 192, 512],
+					destination: path.join('icons', 'android'),
+				},
+			],
+			ios: true,
+		}),
 	],
 	optimization: {
 		minimize: true,

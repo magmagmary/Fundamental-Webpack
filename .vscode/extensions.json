@@ -1,6 +1,3 @@
 {
-	"recommendations": [
-		"editorconfig.editorconfig",
-		"arcanis.vscode-zipfs"
-	]
+	"recommendations": ["editorconfig.editorconfig", "arcanis.vscode-zipfs"]
 }
