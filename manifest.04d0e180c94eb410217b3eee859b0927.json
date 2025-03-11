@@ -70,7 +70,8 @@
   "short_name": "MagMagMary",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": ".",
+  "start_url": "/Fundamental-Webpack/",
+  "scope": "/Fundamental-Webpack/",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
