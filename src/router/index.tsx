@@ -4,13 +4,13 @@ import Posts from '@features/posts/Posts';
 import { createBrowserRouter } from 'react-router';
 
 export const router = createBrowserRouter([
-  {
-    element: <Layout />,
-    children: [
-      {
-        path: '/',
-        element: <Posts />,
-      },
-    ],
-  },
+	{
+		element: <Layout />,
+		children: [
+			{
+				path: '/',
+				element: <Posts />,
+			},
+		],
+	},
 ]);

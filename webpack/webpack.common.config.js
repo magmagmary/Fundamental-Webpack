@@ -39,7 +39,7 @@ export default {
 		new ForkTsCheckerWebpackPlugin(),
 		new HtmlWebpackPlugin({
 			template: path.resolve(__dirname, '../src/index.html'),
-			// favicon: path.resolve(__dirname, '../src/assets/svg/.....'),
+			favicon: path.resolve(__dirname, '../src/assets/images/favicon.png'),
 			inject: true,
 		}),
 		new MiniCssExtractPlugin({

@@ -7,7 +7,14 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": ["node_modules", "build", ".pnp.*", ".yarn", "package.json"]
+		"ignore": [
+			"node_modules",
+			"build",
+			".pnp.*",
+			".yarn",
+			"package.json",
+			".vscode"
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -19,12 +26,112 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"complexity": {
+				"all": true,
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"all": true,
+				"useImportExtensions": "off",
+				"noUndeclaredDependencies": "off"
+			},
+			"performance": {
+				"all": true
+			},
+			"security": {
+				"all": true
+			},
+			"style": {
+				"all": true,
+				"noDefaultExport": "off",
+				"useFilenamingConvention": "off",
+				"useBlockStatements": "off",
+				"noNamespaceImport": "off",
+				"noImplicitBoolean": "off",
+				"useNamingConvention": {
+					"level": "error",
+					"options": {
+						"requireAscii": true,
+						"strictCase": true,
+						"conventions": [
+							{
+								"selector": {
+									"kind": "objectLiteralProperty"
+								},
+								"formats": ["camelCase", "PascalCase", "snake_case"]
+							},
+							{
+								"selector": {
+									"kind": "enumMember"
+								},
+								"formats": ["CONSTANT_CASE", "PascalCase"]
+							},
+							{
+								"selector": {
+									"kind": "importAlias"
+								},
+								"formats": ["PascalCase", "camelCase"]
+							}
+						]
+					}
+				}
+			},
+			"suspicious": {
+				"all": true,
+				"noReactSpecificProps": "off"
+			},
+			"a11y": {
+				"all": true,
+				"noSvgWithoutTitle": "warn",
+				"useValidAriaRole": {
+					"level": "error",
+					"options": {
+						"allowInvalidRoles": ["skeleton"]
+					}
+				},
+				"useKeyWithClickEvents": "warn"
+			},
+			"nursery": {
+				"recommended": true
+			}
 		}
 	},
 	"javascript": {
+		"globals": [
+			"vi",
+			"describe",
+			"it",
+			"expect",
+			"beforeEach",
+			"afterAll",
+			"beforeAll",
+			"afterEach",
+			"JSX"
+		],
 		"formatter": {
 			"quoteStyle": "single"
 		}
-	}
+	},
+	"overrides": [
+		{
+			"include": ["*.js", "./vitest.config.ts"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noNodejsModules": "off"
+					}
+				}
+			}
+		},
+		{
+			"include": ["*.test.tsx"],
+			"linter": {
+				"rules": {
+					"style": {
+						"useNamingConvention": "off"
+					}
+				}
+			}
+		}
+	]
 }
