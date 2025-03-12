@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["gh-pages", "npm:6.3.0"],\
           ["html-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.6.3"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:15.4.3"],\
+          ["lint-staged", "npm:15.5.0"],\
           ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.9.2"],\
           ["postcss", "npm:8.5.3"],\
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.1"],\
@@ -6352,10 +6352,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:a6714936967661db4c50f5e9ac4985e2c78b13c770fe9816b8aaa64e55dc67458b66f033911b6e7c71096d059cd8c0f7d07daf03853191212127379996acf3f3#npm:4.4.0", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-875804211b/0/cache/debug-npm-4.4.0-f6efe76023-db94f1a182.zip/node_modules/debug/",\
+      ["virtual:63006597bb5cc2c4a7ab4fa19b72fcbb97432d2bbcf948ed173747b003c1a8f9a9ba9a8d6034ca3ecd161ccc0af37d1bbfd9f04dc8a658234ee3b07c2b2033bc#npm:4.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-48100e3f37/0/cache/debug-npm-4.4.0-f6efe76023-db94f1a182.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:a6714936967661db4c50f5e9ac4985e2c78b13c770fe9816b8aaa64e55dc67458b66f033911b6e7c71096d059cd8c0f7d07daf03853191212127379996acf3f3#npm:4.4.0"],\
+          ["debug", "virtual:63006597bb5cc2c4a7ab4fa19b72fcbb97432d2bbcf948ed173747b003c1a8f9a9ba9a8d6034ca3ecd161ccc0af37d1bbfd9f04dc8a658234ee3b07c2b2033bc#npm:4.4.0"],\
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
@@ -9282,13 +9282,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:15.4.3", {\
-        "packageLocation": "./.yarn/cache/lint-staged-npm-15.4.3-a671493696-c1f71f2273.zip/node_modules/lint-staged/",\
+      ["npm:15.5.0", {\
+        "packageLocation": "./.yarn/cache/lint-staged-npm-15.5.0-63006597bb-393b24d85d.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
-          ["lint-staged", "npm:15.4.3"],\
+          ["lint-staged", "npm:15.5.0"],\
           ["chalk", "npm:5.4.1"],\
           ["commander", "npm:13.1.0"],\
-          ["debug", "virtual:a6714936967661db4c50f5e9ac4985e2c78b13c770fe9816b8aaa64e55dc67458b66f033911b6e7c71096d059cd8c0f7d07daf03853191212127379996acf3f3#npm:4.4.0"],\
+          ["debug", "virtual:63006597bb5cc2c4a7ab4fa19b72fcbb97432d2bbcf948ed173747b003c1a8f9a9ba9a8d6034ca3ecd161ccc0af37d1bbfd9f04dc8a658234ee3b07c2b2033bc#npm:4.4.0"],\
           ["execa", "npm:8.0.1"],\
           ["lilconfig", "npm:3.1.3"],\
           ["listr2", "npm:8.2.5"],\
@@ -13957,7 +13957,7 @@ const RAW_RUNTIME_STATE =
           ["gh-pages", "npm:6.3.0"],\
           ["html-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.6.3"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:15.4.3"],\
+          ["lint-staged", "npm:15.5.0"],\
           ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.9.2"],\
           ["postcss", "npm:8.5.3"],\
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.1"],\
