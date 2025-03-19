@@ -23,7 +23,7 @@
 		"@tailwindcss/postcss": "4.0.14",
 		"@types/gh-pages": "6.1.0",
 		"@types/node": "22.10.10",
-		"@types/react": "19.0.10",
+		"@types/react": "19.0.12",
 		"@types/react-dom": "19.0.4",
 		"@types/webpack-env": "1.18.8",
 		"babel-loader": "10.0.0",
