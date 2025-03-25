@@ -14,11 +14,11 @@
 		"deploy": "yarn build && gh-pages -d build"
 	},
 	"devDependencies": {
-		"@babel/core": "7.26.9",
+		"@babel/core": "7.26.10",
 		"@babel/plugin-syntax-dynamic-import": "7.8.3",
 		"@babel/preset-env": "7.26.9",
 		"@babel/preset-react": "7.26.3",
-		"@babel/preset-typescript": "7.26.0",
+		"@babel/preset-typescript": "7.27.0",
 		"@biomejs/biome": "1.9.4",
 		"@tailwindcss/postcss": "4.0.14",
 		"@types/gh-pages": "6.1.0",
