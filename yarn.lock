@@ -7031,9 +7031,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:15.5.0":
-  version: 15.5.0
-  resolution: "lint-staged@npm:15.5.0"
+"lint-staged@npm:15.5.2":
+  version: 15.5.2
+  resolution: "lint-staged@npm:15.5.2"
   dependencies:
     chalk: "npm:^5.4.1"
     commander: "npm:^13.1.0"
@@ -7047,7 +7047,7 @@ __metadata:
     yaml: "npm:^2.7.0"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10c0/393b24d85d705a36e6556dc9d9b710594163be60f7789a2ca71bbf8f31debc10f7fde9cd0e868466ac2b7c154661983602decd7abbb6c685b21007bc70dbbdd6
+  checksum: 10c0/618386254600ada3af3672486a9d082250108245e7c0863d9dfe0a21e7764e3b2eb6416b0f8970e548f4e9d368637331598b27df5a1306925feabbaf16a667e1
   languageName: node
   linkType: hard
 
@@ -10782,7 +10782,7 @@ __metadata:
     gh-pages: "npm:6.3.0"
     html-webpack-plugin: "npm:5.6.3"
     husky: "npm:9.1.7"
-    lint-staged: "npm:15.5.0"
+    lint-staged: "npm:15.5.2"
     mini-css-extract-plugin: "npm:2.9.2"
     postcss: "npm:8.5.3"
     postcss-loader: "npm:8.1.1"
